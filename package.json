@@ -1,0 +1,25 @@
+{
+  "name": "movie-history",
+  "version": "1.0.0",
+  "description": "Einfache Webseite um die besten Filme aller Zeiten zu finden",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karoman/Movie-History.git"
+  },
+  "keywords": [
+    "Voting",
+    "Movie",
+    "History",
+    "Rankings"
+  ],
+  "author": "Ferruh Yilmaz",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/Karoman/Movie-History/issues"
+  },
+  "homepage": "https://github.com/Karoman/Movie-History#readme"
+}
