@@ -4,7 +4,10 @@
   "description": "Einfache Webseite um die besten Filme aller Zeiten zu finden",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "node scripts/clean.js",
+    "build": "npm run clean && parcel build src/*.html --public-url . --detailed-report --experimental-scope-hoisting",
+    "watch": "npm run clean && parcel watch src/*.html --public-url . --detailed-report --experimental-scope-hoisting",
+    "start": "parcel src/index.html --open"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/Karoman/Movie-History/issues"
   },
-  "homepage": "https://github.com/Karoman/Movie-History#readme"
+  "homepage": "https://github.com/Karoman/Movie-History#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "shelljs": "^0.8.2"
+  }
 }
